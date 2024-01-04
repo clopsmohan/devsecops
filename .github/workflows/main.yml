@@ -34,3 +34,6 @@ jobs:
         pwd
         ls -lart
 
+    - name: Opening files
+      run: |
+        cat snyk.sarif
